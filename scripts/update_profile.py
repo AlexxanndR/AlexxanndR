@@ -127,16 +127,18 @@ def aggregate_languages(repos):
 
 
 def badge(lang: str, pct: float) -> str:
+    """An <img> tag, not markdown image syntax: the block lives inside a raw
+    HTML <p align="center">, where GitHub does not parse markdown."""
     slug_color = LANG_META.get(lang, "unknown")
     label = urllib.parse.quote(lang.replace(" ", "_"), safe="")
     pct_str = urllib.parse.quote(f"{pct:.1f}%")
     if slug_color in (None, "unknown"):
-        return f"![{lang}](https://img.shields.io/badge/{label}-{pct_str}-555555?style=for-the-badge)"
-    slug, color = slug_color
-    return (
-        f"![{lang}](https://img.shields.io/badge/{label}-{pct_str}-{color}"
-        f"?style=for-the-badge&logo={slug}&logoColor=white)"
-    )
+        url = f"https://img.shields.io/badge/{label}-{pct_str}-555555?style=for-the-badge"
+    else:
+        slug, color = slug_color
+        url = (f"https://img.shields.io/badge/{label}-{pct_str}-{color}"
+               f"?style=for-the-badge&logo={slug}&logoColor=white")
+    return f'<img src="{url}" alt="{lang} - {pct:.1f}% of code">'
 
 
 def build_stack_section(lang_totals, repo_count):

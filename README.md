@@ -18,7 +18,6 @@
 ### 🧑‍💻 About me
 
 - 💻 C#/.NET developer
-- 🔬 Interested in low-level networking, cryptography and clean architecture
 
 ---
 
@@ -30,10 +29,10 @@
 <p align="center">🧠 Dominant language: <b>C#</b> (95% of 0.2 MB across 4 repos)</p>
 
 <p align="center">
-  ![C#](https://img.shields.io/badge/C%23-95.0%25-512BD4?style=for-the-badge&logo=csharp&logoColor=white)
-  ![HTML](https://img.shields.io/badge/HTML-4.5%25-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-  ![CSS](https://img.shields.io/badge/CSS-0.4%25-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-  ![JavaScript](https://img.shields.io/badge/JavaScript-0.2%25-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white)
+  <img src="https://img.shields.io/badge/C%23-95.0%25-512BD4?style=for-the-badge&logo=csharp&logoColor=white" alt="C# - 95.0% of code">
+  <img src="https://img.shields.io/badge/HTML-4.5%25-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML - 4.5% of code">
+  <img src="https://img.shields.io/badge/CSS-0.4%25-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS - 0.4% of code">
+  <img src="https://img.shields.io/badge/JavaScript-0.2%25-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white" alt="JavaScript - 0.2% of code">
 </p>
 <!-- STACK:END -->
 
@@ -49,7 +48,7 @@
 | [MFDictionary](https://github.com/AlexxanndR/MFDictionary) | — | `C#` | 0 |
 | [NetworkLabs](https://github.com/AlexxanndR/NetworkLabs) | — | `C#` | 0 |
 
-<sub>Last refreshed automatically on 2026-11-24 18:23 UTC.</sub>
+<sub>Last refreshed automatically on 2026-11-24 18:41 UTC.</sub>
 <!-- PROJECTS:END -->
 
 ---
